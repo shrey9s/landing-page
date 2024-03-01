@@ -4,15 +4,17 @@ body {
     margin: 0;
 }
 
+/* --- HEADER AND HERO SECTIONS --- */
+
 .header,
-.section-one,
+.hero-section,
 .footer {
     background-color: #1F2937;
     font-family: "Roboto", sans-serif;
     color: #F9FAF8;
 }
 
-.header, .section-one {
+.header, .hero-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +25,7 @@ body {
     padding: 10px 200px 0px;
 }
 
-.section-one { 
+.hero-section { 
     padding: 100px 200px 120px;
 }
 
@@ -75,6 +77,45 @@ button {
     flex-shrink: 0;
     background-color: #6d747d;
 }
+
+/* --- INFO SECTION --- */
+
+.info-section {
+    padding: 50px 0px 100px;
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info-header {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    max-width: 155px;
+}
+
+.info-text {
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.placeholder {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+/* --- FOOTER --- */
 
 .footer {
     margin-top: 20px;
