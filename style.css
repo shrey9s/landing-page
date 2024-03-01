@@ -74,6 +74,9 @@ button {
 .placeholder-img {
     width: 500px;
     height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     background-color: #6d747d;
 }
@@ -115,9 +118,37 @@ button {
     border-radius: 15px;
 }
 
+/* --- QUOTE SECTION --- */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0px;
+    background-color: #E5E7EB;
+    font-family: "Roboto", sans-serif;
+}
+
+.quote {
+    width: 770px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.attribution {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: right;
+    margin-right: 33px;
+}
+
 /* --- FOOTER --- */
 
 .footer {
     margin-top: 20px;
     /* temporary to separate from header section */
 }
+
+
