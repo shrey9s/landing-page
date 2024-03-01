@@ -4,13 +4,16 @@ body {
     margin: 0;
 }
 
+body > div {
+    font-family: "Roboto", sans-serif;
+}
+
 /* --- HEADER AND HERO SECTIONS --- */
 
 .header,
 .hero-section,
 .footer {
     background-color: #1F2937;
-    font-family: "Roboto", sans-serif;
     color: #F9FAF8;
 }
 
@@ -63,12 +66,16 @@ a {
 }
 
 button {
-    padding: 8px 28px;
-    border: none;
     border-radius: 5px;
-    margin-top: 10px;
-    background-color: #3882F6;
     color: #F9FAF8;
+    cursor: pointer;
+}
+
+.hero-section button {
+    padding: 5px 25px;
+    margin-top: 10px;
+    border: none;
+    background-color: #3882F6;
 }
 
 .placeholder-img {
@@ -85,7 +92,6 @@ button {
 
 .info-section {
     padding: 50px 0px 100px;
-    font-family: "Roboto", sans-serif;
     color: #1F2937;
     text-align: center;
 }
@@ -125,7 +131,6 @@ button {
     justify-content: center;
     padding: 120px 0px;
     background-color: #E5E7EB;
-    font-family: "Roboto", sans-serif;
 }
 
 .quote {
@@ -142,6 +147,41 @@ button {
     font-style: normal;
     text-align: right;
     margin-right: 33px;
+}
+
+/* --- SIGN-UP SECTION --- */
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    color: #F9FAF8;
+    background-color: antiquewhite; /* temporary - just to delineate section */
+}
+
+.blue-container {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
+.main-text {
+    font-weight: 500;
+}
+
+.subtext {
+    font-size: 12px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.sign-up-section button {
+    padding: 0px 30px;
+    border: 2px solid white;
+    background-color: transparent;
 }
 
 /* --- FOOTER --- */
