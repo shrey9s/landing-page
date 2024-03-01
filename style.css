@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-body > div {
+body>div {
     font-family: "Roboto", sans-serif;
 }
 
@@ -17,7 +17,8 @@ body > div {
     color: #F9FAF8;
 }
 
-.header, .hero-section {
+.header,
+.hero-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +29,7 @@ body > div {
     padding: 10px 200px 0px;
 }
 
-.hero-section { 
+.hero-section {
     padding: 100px 200px 120px;
 }
 
@@ -51,7 +52,8 @@ body > div {
 
 .hero-main-text {
     font-size: 48px;
-    font-weight: 800; /* extra-bold */
+    font-weight: 800;
+    /* extra-bold */
 }
 
 a,
@@ -92,6 +94,7 @@ button {
 
 .info-section {
     padding: 50px 0px 100px;
+    background-color: #F9FAF8;
     color: #1F2937;
     text-align: center;
 }
@@ -155,8 +158,9 @@ button {
     display: flex;
     justify-content: center;
     padding: 80px 0px;
+    background-color: #F9FAF8;
     color: #F9FAF8;
-    background-color: antiquewhite; /* temporary - just to delineate section */
+    /* temporary - just to delineate section */
 }
 
 .blue-container {
@@ -187,8 +191,10 @@ button {
 /* --- FOOTER --- */
 
 .footer {
-    margin-top: 20px;
-    /* temporary to separate from header section */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #F9FAF8;
 }
-
-
