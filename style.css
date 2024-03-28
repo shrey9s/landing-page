@@ -8,12 +8,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.content {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
 /* --- HERO SECTION --- */
 
 .hero-section,
@@ -23,6 +17,7 @@ body {
 }
 
 .hero-section {
+    flex: 1;
     display: flex;
     flex-direction: column;
     padding: 0 200px;
@@ -103,6 +98,7 @@ button {
 /* --- INFO SECTION --- */
 
 .info-section {
+    flex: 1;
     padding: 50px 0px 100px;
     background-color: #F9FAF8;
     color: #1F2937;
@@ -140,6 +136,7 @@ button {
 /* --- QUOTE SECTION --- */
 
 .quote-section {
+    flex: 1;
     display: flex;
     justify-content: center;
     padding: 120px 0px;
@@ -164,7 +161,8 @@ button {
 
 /* --- SIGN-UP SECTION --- */
 
-.sign-up-section {
+.signup-section {
+    flex: 1;
     display: flex;
     justify-content: center;
     padding: 80px 0px;
@@ -191,7 +189,7 @@ button {
     color: #E5E7EB;
 }
 
-.sign-up-section button {
+.signup-section button {
     padding: 0px 30px;
     border: 2px solid white;
     background-color: transparent;
