@@ -73,6 +73,9 @@ a,
 a {
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 
 button {
     border-radius: 5px;
@@ -85,6 +88,10 @@ button {
     margin-top: 10px;
     border: none;
     background-color: #3882F6;
+}
+.hero-section button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 .placeholder-img {
@@ -201,6 +208,11 @@ button {
     padding: 0px 30px;
     border: 2px solid white;
     background-color: transparent;
+    flex-shrink: 0;
+}
+.signup-section button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
 }
 
 /* --- FOOTER --- */
