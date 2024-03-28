@@ -19,6 +19,7 @@ body {
 .hero-section {
     flex: 1;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     padding: 0 200px;
 }
@@ -32,7 +33,7 @@ body {
 }
 
 .header {
-    padding: 15px 0;
+    padding-top: 15px;
 }
 
 .header-logo {
@@ -99,20 +100,25 @@ button {
 
 .info-section {
     flex: 1;
-    padding: 50px 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 40px 0 100px;
     background-color: #F9FAF8;
     color: #1F2937;
     text-align: center;
 }
 
 .info-header {
-    margin-bottom: 50px;
     font-size: 36px;
     font-weight: 800;
 }
 
 .info-container {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 50px;
 }
@@ -138,8 +144,9 @@ button {
 .quote-section {
     flex: 1;
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 120px 0px;
+    padding: 100px 0px;
     background-color: #E5E7EB;
 }
 
@@ -164,6 +171,7 @@ button {
 .signup-section {
     flex: 1;
     display: flex;
+    align-items: center;
     justify-content: center;
     padding: 80px 0px;
     background-color: #F9FAF8;
